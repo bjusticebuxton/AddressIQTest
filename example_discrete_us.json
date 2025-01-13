@@ -1,0 +1,948 @@
+{
+  "Address_IQ_Configuration": {
+    "Configuration_Version": "2",
+    "Keyfile_Folder": "C:\\pw\\Dependencies",
+    "Geo_Enabled": "NO",
+    "NCOA_Enabled": "NO",
+    "DSF2_Enabled": "NO",
+    "Data_Format": "JSON",
+    "Initial_Thread_Count": "5",
+    "Max_Threads": "10",
+    "Country": "US",
+    "Output_Casing": "Mixed",
+    "Input_Options": {
+      "Input_Fields": [
+        {
+          "Input_Field_Name": "Name_Firm"
+        },
+        {
+          "Input_Field_Name": "Primary_Address"
+        },
+        {
+          "Input_Field_Name": "Secondary_Address"
+        },
+        {
+          "Input_Field_Name": "Locality"
+        },
+        {
+          "Input_Field_Name": "Region"
+        },
+        {
+          "Input_Field_Name": "Postcode"
+        }
+      ]
+    },
+    "Report_Options": {
+      "Report_Logo_Path": "report_logo.svg",
+      "Report_Header_1": "Header Line 1",
+      "Report_Header_2": "Header Line 2",
+      "Report_Header_3": "Header Line 3",
+      "Report_Header_4": "Header Line 4"
+    },
+    "Geocoding_Options": {
+      "Geocoding_Mode": "Best",
+      "Geo_Data_Folder": "INSERT PATH",
+      "Geo_Output": "Both",
+      "Output_Fields": [
+        {
+          "Output_Field_Name": "Address_Latitude"
+        },
+        {
+          "Output_Field_Name": "Address_Longitude"
+        },
+        {
+          "Output_Field_Name": "Address_Match_Level"
+        },
+        {
+          "Output_Field_Name": "Centroid_Latitude"
+        },
+        {
+          "Output_Field_Name": "Centroid_Longitude"
+        },
+        {
+          "Output_Field_Name": "Centroid_Match_Level"
+        },
+        {
+          "Output_Field_Name": "Gov_Region1_Code"
+        },
+        {
+          "Output_Field_Name": "Gov_County_Code"
+        },
+        {
+          "Output_Field_Name": "Gov_Locality1_Code"
+        },
+        {
+          "Output_Field_Name": "Census_Tract_Block"
+        },
+        {
+          "Output_Field_Name": "Minor_Div_Code"
+        },
+        {
+          "Output_Field_Name": "Metro_Stat_Area_Code"
+        },
+        {
+          "Output_Field_Name": "Stat_Area_Code"
+        },
+        {
+          "Output_Field_Name": "Info_Code"
+        }
+      ]
+    },
+    "USPS_Licensee_Information": {
+      "Licensee_Name": "Licensee Name",
+      "NCOA_Platform_ID": "1234",
+      "DSF2_Licensee_ID": "ABCD"
+    },
+    "Customer_Information": {
+      "Customer_Company_Name": "Company Name",
+      "Customer_Company_Address": "Address",
+      "Customer_Company_Urbanization": "",
+      "Customer_Company_City": "City",
+      "Customer_Company_State": "GA",
+      "Customer_Company_Zip5": "55555",
+      "Customer_Company_Zip4": "4444",
+      "Customer_Company_Phone": "8005551212",
+      "List_Owner_NAICS": "555666",
+      "IMB_Mailer_ID": "123456",
+      "Customer_List_ID": "AABBCC",
+      "Processing_Frequency": "12",
+      "Date_List_Received": "20210406",
+      "List_Return_Date": "20210407"
+    },
+    "CASS_Processing_Options": {
+      "Do_EWS": "YES",
+      "Do_ELOT": "YES",
+      "Do_RDI": "YES",
+      "Assign_With_Input_City": "NO",
+      "Preserve_Place_Names": "NO",
+      "CASS_Mode": "Correct",
+      "City_Directory": "C:\\pw\\Dependencies\\current_national_cass\\Current_USAddress\\city10.dir",
+      "ZCF_Directory": "C:\\pw\\Dependencies\\current_national_cass\\Current_USAddress\\zcf10.dir",
+      "Zip4_Directory1": "C:\\pw\\Dependencies\\current_national_cass\\Current_USAddress\\zip4us.dir",
+      "Reverse_Zip4_Directory": "C:\\pw\\Dependencies\\current_national_cass\\Current_USAddress\\revzip4.dir",
+      "Reverse_Soundex_Directory": "C:\\pw\\Dependencies\\current_national_cass\\Current_USAddress\\zip4us.rev",
+      "Zip4_SHS_Directory": "C:\\pw\\Dependencies\\current_national_cass\\Current_USAddress\\zip4us.shs",
+      "EWS_Directory": "C:\\pw\\Dependencies\\current_national_cass\\ew*.dir",
+      "ELOT_Directory": "C:\\pw\\Dependencies\\current_national_cass\\Current_USAddress\\elot.dir",
+      "RDI_Path": "C:\\pw\\Dependencies\\current_cass\\Current_RDI\\",
+      "LACSLink_Path": "C:\\pw\\Dependencies\\current_cass\\Current_LacsLink\\",
+      "SuiteLink_Path": "C:\\pw\\Dependencies\\current_cass\\Current_SuiteLink\\",
+      "DPV_Path": "C:\\pw\\Dependencies\\current_cass\\Current_DPV\\",
+      "SDK_Link_Dir": "C:\\pw\\AddressIQ\\sdk\\",
+      "USPS_Log_File_Directory": "C:\\pw\\Logs\\",
+      "Cache_Suitelink_Dirs": "YES",
+      "Cache_DPV_Dirs": "YES",
+      "Cache_LACSLink_Dirs": "YES",
+      "Cache_RDI_Dirs": "YES",
+      "CASS_Report_Options": {
+        "LOT_Certified": "YES",
+        "CASS_Certification_Line": "CASS Certification Line",
+        "Mailer_Address_1": "Mailer Address 1",
+        "Mailer_Address_2": "Mailer Address 2",
+        "Mailer_Address_3": "Mailer Address 3",
+        "Mailer_Address_4": "Mailer Address 4",
+        "List_Processor": "List Processor",
+        "CASS_Certified_Software_Name": "Software Name",
+        "CASS_Certified_Software_Version": "Version",
+        "List_Name": "List Name"
+      },
+      "Output_Fields": [
+        {
+          "Output_Field_Name": "Primary_Number"
+        },
+        {
+          "Output_Field_Name": "Pre_Directional"
+        },
+        {
+          "Output_Field_Name": "Primary_Name"
+        },
+        {
+          "Output_Field_Name": "Post_Directional"
+        },
+        {
+          "Output_Field_Name": "Suffix"
+        },
+        {
+          "Output_Field_Name": "Secondary_Description"
+        },
+        {
+          "Output_Field_Name": "Secondary_Number"
+        },
+        {
+          "Output_Field_Name": "Urbanization_Name"
+        },
+        {
+          "Output_Field_Name": "Primary_Address"
+        },
+        {
+          "Output_Field_Name": "Secondary_Address"
+        },
+        {
+          "Output_Field_Name": "Primary_Secondary_Address"
+        },
+        {
+          "Output_Field_Name": "Full_Address"
+        },
+        {
+          "Output_Field_Name": "City"
+        },
+        {
+          "Output_Field_Name": "State"
+        },
+        {
+          "Output_Field_Name": "Zip5"
+        },
+        {
+          "Output_Field_Name": "Zip4"
+        },
+        {
+          "Output_Field_Name": "Zip9"
+        },
+        {
+          "Output_Field_Name": "Zip10"
+        },
+        {
+          "Output_Field_Name": "Lastline"
+        },
+        {
+          "Output_Field_Name": "Record_Type"
+        },
+        {
+          "Output_Field_Name": "Address_Type"
+        },
+        {
+          "Output_Field_Name": "ErrStat"
+        },
+        {
+          "Output_Field_Name": "QSS_Default"
+        },
+        {
+          "Output_Field_Name": "DPV_Footnotes"
+        },
+        {
+          "Output_Field_Name": "LACS_Code"
+        },
+        {
+          "Output_Field_Name": "CART"
+        },
+        {
+          "Output_Field_Name": "Undeliverable"
+        },
+        {
+          "Output_Field_Name": "EWS_Match"
+        },
+        {
+          "Output_Field_Name": "LACS_Return_Code"
+        },
+        {
+          "Output_Field_Name": "SuiteLINK_Return_Code"
+        },
+        {
+          "Output_Field_Name": "DPV_Status"
+        },
+        {
+          "Output_Field_Name": "DPV_Vacant_Flag"
+        },
+        {
+          "Output_Field_Name": "CMRA_Flag"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Days"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Sunday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Monday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Tuesday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Wednesday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Thursday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Friday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Saturday"
+        },
+        {
+          "Output_Field_Name": "DPV_No_Stat_Flag"
+        },
+        {
+          "Output_Field_Name": "DPV_PO_Box_Only_Postcode"
+        },
+        {
+          "Output_Field_Name": "DPV_Door_Not_Accessible"
+        },
+        {
+          "Output_Field_Name": "DPV_No_Secure_Location"
+        },
+        {
+          "Output_Field_Name": "DPV_Throwback_Indicator"
+        },
+        {
+          "Output_Field_Name": "LOT"
+        },
+        {
+          "Output_Field_Name": "LOT_Order"
+        },
+        {
+          "Output_Field_Name": "RDI_Indicator"
+        },
+        {
+          "Output_Field_Name": "Matched_Lastline_Indicator"
+        },
+        {
+          "Output_Field_Name": "CASS_Assignment_Type"
+        },
+        {
+          "Output_Field_Name": "DPBC"
+        },
+        {
+          "Output_Field_Name": "PO_Box_Number"
+        },
+        {
+          "Output_Field_Name": "PO_Box_Description"
+        },
+        {
+          "Output_Field_Name": "RR_Number"
+        },
+        {
+          "Output_Field_Name": "RR_Box_Number"
+        },
+        {
+          "Output_Field_Name": "Extran_Sec_Number"
+        },
+        {
+          "Output_Field_Name": "Check_Digit"
+        },
+        {
+          "Output_Field_Name": "LACS_Indicator"
+        },
+        {
+          "Output_Field_Name": "Matched_Address_Line_Indicator"
+        },
+        {
+          "Output_Field_Name": "Status_Code"
+        },
+        {
+          "Output_Field_Name": "City_Abbreviation"
+        },
+        {
+          "Output_Field_Name": "Suffix_Long"
+        },
+        {
+          "Output_Field_Name": "Prefix_Long"
+        },
+        {
+          "Output_Field_Name": "Postfix_Long"
+        },
+        {
+          "Output_Field_Name": "County_Code"
+        },
+        {
+          "Output_Field_Name": "County_Name"
+        },
+        {
+          "Output_Field_Name": "Non_Postal_Unit"
+        },
+        {
+          "Output_Field_Name": "Non_Postal_Unit_Number"
+        },
+        {
+          "Output_Field_Name": "Non_Postal_Secondary_Address"
+        },
+        {
+          "Output_Field_Name": "Postcode_Type"
+        },
+        {
+          "Output_Field_Name": "Foreign_Code"
+        },
+        {
+          "Output_Field_Name": "Locality1_Lastline_Index"
+        },
+        {
+          "Output_Field_Name": "Locality1_Name"
+        },
+        {
+          "Output_Field_Name": "Locality1_Alternate"
+        },
+        {
+          "Output_Field_Name": "Unit_Description_Directory"
+        },
+        {
+          "Output_Field_Name": "Carrier_Route_Sort_Zone"
+        },
+        {
+          "Output_Field_Name": "Congress_District"
+        },
+        {
+          "Output_Field_Name": "Zip_Changed_Indicator"
+        },
+        {
+          "Output_Field_Name": "Fault_Code"
+        },
+        {
+          "Output_Field_Name": "Primary_Name_Official"
+        },
+        {
+          "Output_Field_Name": "Primary_Address_Official"
+        },
+        {
+          "Output_Field_Name": "Primary_Secondary_Address_Official"
+        },
+        {
+          "Output_Field_Name": "Secondary_Address_Official"
+        },
+        {
+          "Output_Field_Name": "Suffix_Official"
+        },
+        {
+          "Output_Field_Name": "Suffix_Long_Official"
+        },
+        {
+          "Output_Field_Name": "Secondary_Unit_Official"
+        },
+        {
+          "Output_Field_Name": "City_Official"
+        },
+        {
+          "Output_Field_Name": "Address_Line_Remainder"
+        },
+        {
+          "Output_Field_Name": "Delivery_Type"
+        },
+        {
+          "Output_Field_Name": "Alias_Type"
+        },
+        {
+          "Output_Field_Name": "Finance_Area_Postcode"
+        },
+        {
+          "Output_Field_Name": "FIPS_Code"
+        },
+        {
+          "Output_Field_Name": "DPV_No_Stat_Reason_Code"
+        },
+        {
+          "Output_Field_Name": "DPV_PBSA_Flag"
+        },
+        {
+          "Output_Field_Name": "DPV_EnhancedStatus"
+        },
+        {
+          "Output_Field_Name": "DPV_Drop_Flag"
+        },
+        {
+          "Output_Field_Name": "CASS_Stage_Record"
+        }
+      ]
+    },
+    "NCOA_Options": {
+      "PAF_Options": {
+        "Person_Signing_Name": "John Q Public",
+        "Person_Signing_Title": "Administrator",
+        "Person_Signing_Email": "john@customer.com",
+        "Company_Website": "www.customer.com",
+        "Date_Signed_Customer": "20190401",
+        "PAF_Type": "Modified",
+        "Customer_Parent_Company": "Acme Manufacturing",
+        "Customer_Alternate_Company": "Acme Tools and Supplies",
+        "Date_Signed_Licensee": "20190405",
+        "Using_Alternate_PAF": "NO",
+        "Cooperative_Database": "NO"
+      },
+      "Service_Provider_Options": {
+        "Broker_Involved": "YES",
+        "List_Admin_Involved": "NO",
+        "Buyer_Company_Name": "Buyer Company",
+        "Mailing_Zip_Code": "55555",
+        "Pre_Processes_Performed": "NO",
+        "Pre_Proc_Postal_Data": "NO",
+        "Pre_Proc_Other_Data": "NO",
+        "Concurrent_Processes_Performed": "YES",
+        "Concurrent_Proc_Postal_Data": "NO",
+        "Concurrent_Proc_Other_Data": "YES",
+        "Post_Processes_Performed": "NO",
+        "Post_Proc_Postal_Data": "NO",
+        "Post_Proc_Other_Data": "NO",
+        "Output_Returned": "Both",
+        "Additional_Notes": "None",
+        "In_House_List_Processing": "NO"
+      },
+      "Processing_Options": {
+        "Processing_Mode": "Coa",
+        "Match_Logic": "Individual_And_Business",
+        "Processing_Category": "Normal",
+        "High_Match_Rate_Description": "Unset",
+        "Accepted_COA_Months": "15",
+        "Processing_First_Class_Mail": "YES",
+        "Processing_Periodicals_Mail": "NO",
+        "Processing_Standard_Mail": "YES",
+        "Processing_Package_Services": "NO",
+        "List_Name": "NCOA List 1",
+        "List_Other_Processes": ""
+      },
+      "NCOA_Data_Options": {
+        "NCOA_Data_Folder": "INSERT PATH",
+        "Firmline_Dict": "AIQ INSTALL PATH\\data\\firmln.dct",
+        "Name_Parsing_Dict": "AIQ INSTALL PATH\\data\\parsing_ncoa.dct",
+        "Capitalization_Dict": "AIQ INSTALL PATH\\data\\pwcap.dct",
+        "Name_Parsing_Rules_File": "AIQ INSTALL PATH\\data\\drlrules_ncoa.dat",
+        "Data_Caching_Mode": "Auto",
+        "Data_Cache_Size_Mb": "1024",
+        "Address_Casing_Dict": "AIQ INSTALL PATH\\sdk\\DataQuality\\urac\\pwcas.dct"
+      },
+      "Contact_Options": {
+        "Contacts": [
+          {
+            "Contact_Type": "Broker",
+            "Contact_ID": "AA1234",
+            "Contact_Level": "1",
+            "NAICS": "613454",
+            "Date_Signed_PAF": "20200101",
+            "Company_Name": "Broker Company",
+            "Address": "123 Main St",
+            "Urbanization": "",
+            "City": "Anytown",
+            "State": "TX",
+            "Zip": "59999",
+            "Zip4": "0123",
+            "Phone": "8005552345",
+            "Website": "www.brokercompany.com"
+          },
+          {
+            "Contact_Type": "List_Admin",
+            "Contact_ID": "AA1235",
+            "Contact_Level": "1",
+            "NAICS": "613460",
+            "Date_Signed_PAF": "20200201",
+            "Company_Name": "List Admin Company",
+            "Address": "800 First St",
+            "Urbanization": "",
+            "City": "Anytown",
+            "State": "NY",
+            "Zip": "10101",
+            "Zip4": "0888",
+            "Phone": "8005551900",
+            "Website": "www.listadmincompany.com"
+          }
+        ]
+      },
+      "Output_Fields": [
+        {
+          "Output_Field_Name": "Primary_Number"
+        },
+        {
+          "Output_Field_Name": "Pre_Directional"
+        },
+        {
+          "Output_Field_Name": "Primary_Name"
+        },
+        {
+          "Output_Field_Name": "Suffix"
+        },
+        {
+          "Output_Field_Name": "Post_Directional"
+        },
+        {
+          "Output_Field_Name": "Secondary_Description"
+        },
+        {
+          "Output_Field_Name": "Secondary_Number"
+        },
+        {
+          "Output_Field_Name": "City"
+        },
+        {
+          "Output_Field_Name": "State"
+        },
+        {
+          "Output_Field_Name": "Zip5"
+        },
+        {
+          "Output_Field_Name": "Zip4"
+        },
+        {
+          "Output_Field_Name": "Zip9"
+        },
+        {
+          "Output_Field_Name": "Zip10"
+        },
+        {
+          "Output_Field_Name": "Urbanization_Name"
+        },
+        {
+          "Output_Field_Name": "DPBC"
+        },
+        {
+          "Output_Field_Name": "CASS_Record_Type"
+        },
+        {
+          "Output_Field_Name": "LACS_Return_Code"
+        },
+        {
+          "Output_Field_Name": "EWS_Match"
+        },
+        {
+          "Output_Field_Name": "DPV_Status"
+        },
+        {
+          "Output_Field_Name": "DPV_Footnotes"
+        },
+        {
+          "Output_Field_Name": "SuiteLINK_Return_Code"
+        },
+        {
+          "Output_Field_Name": "CASS_ErrStat"
+        },
+        {
+          "Output_Field_Name": "QSS_Default"
+        },
+        {
+          "Output_Field_Name": "CMRA_Flag"
+        },
+        {
+          "Output_Field_Name": "DPV_Vacant_Flag"
+        },
+        {
+          "Output_Field_Name": "DPV_No_Stat_Flag"
+        },
+        {
+          "Output_Field_Name": "Undeliverable"
+        },
+        {
+          "Output_Field_Name": "CART"
+        },
+        {
+          "Output_Field_Name": "LACS_Code"
+        },
+        {
+          "Output_Field_Name": "RDI_Indicator"
+        },
+        {
+          "Output_Field_Name": "Primary_Secondary_Address"
+        },
+        {
+          "Output_Field_Name": "Primary_Address"
+        },
+        {
+          "Output_Field_Name": "Secondary_Address"
+        },
+        {
+          "Output_Field_Name": "LOT"
+        },
+        {
+          "Output_Field_Name": "LOT_Order"
+        },
+        {
+          "Output_Field_Name": "RR_Box_Number"
+        },
+        {
+          "Output_Field_Name": "PO_Box_Number"
+        },
+        {
+          "Output_Field_Name": "Full_Address"
+        },
+        {
+          "Output_Field_Name": "Lastline"
+        },
+        {
+          "Output_Field_Name": "CASS_Assignment_Type"
+        },
+        {
+          "Output_Field_Name": "Matched_Lastline"
+        },
+        {
+          "Output_Field_Name": "Address_Type"
+        },
+        {
+          "Output_Field_Name": "Check_Digit"
+        },
+        {
+          "Output_Field_Name": "LACS_Indicator"
+        },
+        {
+          "Output_Field_Name": "Matched_Address_Line"
+        },
+        {
+          "Output_Field_Name": "Stat_Code"
+        },
+        {
+          "Output_Field_Name": "City_Abbreviation"
+        },
+        {
+          "Output_Field_Name": "Suffix_Long"
+        },
+        {
+          "Output_Field_Name": "Prefix_Long"
+        },
+        {
+          "Output_Field_Name": "Postfix_Long"
+        },
+        {
+          "Output_Field_Name": "County_Code"
+        },
+        {
+          "Output_Field_Name": "RR_Number"
+        },
+        {
+          "Output_Field_Name": "Non_Postal_Unit"
+        },
+        {
+          "Output_Field_Name": "Non_Postal_Unit_Number"
+        },
+        {
+          "Output_Field_Name": "Non_Postal_Secondary_Address"
+        },
+        {
+          "Output_Field_Name": "Postcode_Type"
+        },
+        {
+          "Output_Field_Name": "Foreign_Code"
+        },
+        {
+          "Output_Field_Name": "Locality1_Lastline_Index"
+        },
+        {
+          "Output_Field_Name": "Locality1_Name"
+        },
+        {
+          "Output_Field_Name": "Locality1_Alternate"
+        },
+        {
+          "Output_Field_Name": "Unit_Description_Directory"
+        },
+        {
+          "Output_Field_Name": "Carrier_Route_Sort_Zone"
+        },
+        {
+          "Output_Field_Name": "Congress_District"
+        },
+        {
+          "Output_Field_Name": "County_Name"
+        },
+        {
+          "Output_Field_Name": "Delivery_Type"
+        },
+        {
+          "Output_Field_Name": "Zip_Changed_Indicator"
+        },
+        {
+          "Output_Field_Name": "DPV_Door_Not_Accessible"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Days"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Sunday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Monday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Tuesday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Wednesday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Thursday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Friday"
+        },
+        {
+          "Output_Field_Name": "DPV_Non_Delivery_Saturday"
+        },
+        {
+          "Output_Field_Name": "DPV_No_Secure_Location"
+        },
+        {
+          "Output_Field_Name": "DPV_Throwback_Indicator"
+        },
+        {
+          "Output_Field_Name": "DPV_PO_Box_Only_Postcode"
+        },
+        {
+          "Output_Field_Name": "Moved_Months"
+        },
+        {
+          "Output_Field_Name": "Record_Rejected_By_Age"
+        },
+        {
+          "Output_Field_Name": "Move_Effective_Date"
+        },
+        {
+          "Output_Field_Name": "Move_Found"
+        },
+        {
+          "Output_Field_Name": "Move_Address_Returned"
+        },
+        {
+          "Output_Field_Name": "NCOA_Return_Code"
+        },
+        {
+          "Output_Field_Name": "ANKLink_Return_Code"
+        },
+        {
+          "Output_Field_Name": "Move_Type"
+        },
+        {
+          "Output_Field_Name": "Matched_Firm"
+        },
+        {
+          "Output_Field_Name": "Matched_Name_Prefix"
+        },
+        {
+          "Output_Field_Name": "Matched_Name_First"
+        },
+        {
+          "Output_Field_Name": "Matched_Name_Middle"
+        },
+        {
+          "Output_Field_Name": "Matched_Name_Last"
+        },
+        {
+          "Output_Field_Name": "Matched_Name_Post"
+        },
+        {
+          "Output_Field_Name": "FIPS_Code"
+        },
+        {
+          "Output_Field_Name": "DPV_No_Stat_Reason_Code"
+        },
+        {
+          "Output_Field_Name": "DPV_PBSA_Flag"
+        },
+        {
+          "Output_Field_Name": "DPV_EnhancedStatus"
+        },
+        {
+          "Output_Field_Name": "DPV_Drop_Flag"
+        },
+        {
+          "Output_Field_Name": "Audit_Fields"
+        },
+        {
+          "Output_Field_Name": "Audit_MiddleName"
+        },
+        {
+          "Output_Field_Name": "Audit_PrimName"
+        },
+        {
+          "Output_Field_Name": "Audit_PrimRange"
+        },
+        {
+          "Output_Field_Name": "Audit_SecRange"
+        },
+        {
+          "Output_Field_Name": "Audit_SecUnit"
+        },
+        {
+          "Output_Field_Name": "Audit_Drop"
+        },
+        {
+          "Output_Field_Name": "Audit_DropN"
+        },
+        {
+          "Output_Field_Name": "Audit_Gender"
+        },
+        {
+          "Output_Field_Name": "Audit_Hint"
+        },
+        {
+          "Output_Field_Name": "NCOA_Stage_Record"
+        }
+      ]
+    },
+    "DSF2_Options": {
+      "DSF2_Data_Folder": "INSERT PATH",
+      "DSF2_Output": "Both",
+      "Data_Caching_Mode": "Auto",
+      "Job_Name": "Job Name",
+      "Output_Fields": [
+        {
+          "Output_Field_Name": "Record_Type"
+        },
+        {
+          "Output_Field_Name": "Delivery_Type"
+        },
+        {
+          "Output_Field_Name": "Business_Flag"
+        },
+        {
+          "Output_Field_Name": "Vacant_Flag"
+        },
+        {
+          "Output_Field_Name": "Educational_Flag"
+        },
+        {
+          "Output_Field_Name": "Seasonal_Flag"
+        },
+        {
+          "Output_Field_Name": "Throwback_Flag"
+        },
+        {
+          "Output_Field_Name": "False_Positive_Flag"
+        },
+        {
+          "Output_Field_Name": "Door_Not_Accessible_Flag"
+        },
+        {
+          "Output_Field_Name": "No_Secure_Location_Flag"
+        },
+        {
+          "Output_Field_Name": "No_Stat_Flag"
+        },
+        {
+          "Output_Field_Name": "No_Stat_Reason_Code"
+        },
+        {
+          "Output_Field_Name": "CMRA_Flag"
+        },
+        {
+          "Output_Field_Name": "PBSA_Flag"
+        },
+        {
+          "Output_Field_Name": "LACS_Convertible_Flag"
+        },
+        {
+          "Output_Field_Name": "Drop_Flag"
+        },
+        {
+          "Output_Field_Name": "Drop_Count"
+        },
+        {
+          "Output_Field_Name": "Non_Delivery_Days"
+        },
+        {
+          "Output_Field_Name": "Non_Delivery_Sunday"
+        },
+        {
+          "Output_Field_Name": "Non_Delivery_Monday"
+        },
+        {
+          "Output_Field_Name": "Non_Delivery_Tuesday"
+        },
+        {
+          "Output_Field_Name": "Non_Delivery_Wednesday"
+        },
+        {
+          "Output_Field_Name": "Non_Delivery_Thursday"
+        },
+        {
+          "Output_Field_Name": "Non_Delivery_Friday"
+        },
+        {
+          "Output_Field_Name": "Non_Delivery_Saturday"
+        }
+      ]
+    }
+  }
+}

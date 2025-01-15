@@ -1,7 +1,7 @@
 {
   "Address_IQ_Configuration": {
     "Configuration_Version": "2",
-    "Keyfile_Folder": "C:\\pw\\Dependencies",
+    "Keyfile_Folder": "C:\\pw",
     "Geo_Enabled": "NO",
     "NCOA_Enabled": "NO",
     "DSF2_Enabled": "NO",
@@ -490,13 +490,13 @@
       },
       "NCOA_Data_Options": {
         "NCOA_Data_Folder": "INSERT PATH",
-        "Firmline_Dict": "AIQ INSTALL PATH\\data\\firmln.dct",
-        "Name_Parsing_Dict": "AIQ INSTALL PATH\\data\\parsing_ncoa.dct",
-        "Capitalization_Dict": "AIQ INSTALL PATH\\data\\pwcap.dct",
-        "Name_Parsing_Rules_File": "AIQ INSTALL PATH\\data\\drlrules_ncoa.dat",
+        "Firmline_Dict": "C:\\pw\\AddressIQ\\data\\firmln.dct",
+        "Name_Parsing_Dict": "C:\\pw\\AddressIQ\\data\\parsing_ncoa.dct",
+        "Capitalization_Dict": "C:\\pw\\AddressIQ\\data\\pwcap.dct",
+        "Name_Parsing_Rules_File": "C:\\pw\\AddressIQ\\data\\drlrules_ncoa.dat",
         "Data_Caching_Mode": "Auto",
         "Data_Cache_Size_Mb": "1024",
-        "Address_Casing_Dict": "AIQ INSTALL PATH\\sdk\\DataQuality\\urac\\pwcas.dct"
+        "Address_Casing_Dict": "C:\\pw\\AddressIQ\\sdk\\DataQuality\\urac\\pwcas.dct"
       },
       "Contact_Options": {
         "Contacts": [

@@ -1,26 +1,32 @@
-﻿using System;
-using System.IO;
-using AddressIQNET;
-using examples; 
+﻿using AddressIQNET;
+using examples;
+using System;
 
 namespace AddressIQExample
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            var configFilePath = args[0];
+            Console.WriteLine("configPath: {0}", configFilePath);
 
-            string configFilePath = args[0];
-
-            int result = single_record_json_example.ProcessTestRecordJSON(configFilePath);
-
-            if (result == AddressIQDefines.ADDRESS_IQ_OK)
+            try
             {
-                Console.WriteLine("completed.");
+                var result = single_record_json_example.ProcessTestRecordJSON(configFilePath);
+
+                if (result == AddressIQDefines.ADDRESS_IQ_OK)
+                {
+                    Console.WriteLine("completed.");
+                }
+                else
+                {
+                    Console.WriteLine("Error.");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                Console.WriteLine("Error.");
+                Console.WriteLine("Error: {0}", ex.Message);
             }
         }
     }
